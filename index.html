@@ -141,14 +141,14 @@
     <div class="grid-boxes">
       <div class="info-box">
         <p style="margin: 0; font-weight: bold; font-size: 18px;">Anlagebetrag</p>
-        <p style="margin: 5px 0; color: green; font-weight: bold; font-size: 18px;">EUR 90.000,00</p>
-        <p style="margin: 0; color: #333; font-size: 15px;">CHF 83.385,00 bei Kurs 0.9265</p>
+        <p style="margin: 5px 0; color: green; font-weight: bold; font-size: 18px;">EUR 50.000,00</p>
+        <p style="margin: 0; color: #333; font-size: 15px;">CHF 46.365,00 bei Kurs 0.9273</p>
       </div>
 
       <div class="info-box">
         <p style="margin: 0; font-weight: bold; font-size: 18px;">Zinsertrag</p>
         <p style="margin: 5px 0; color: green; font-weight: bold; font-size: 18px;">EUR 0,00</p>
-        <p style="margin: 0; color: #333; font-size: 15px;">CHF 0,00 bei Kurs 0.9265</p>
+        <p style="margin: 0; color: #333; font-size: 15px;">CHF 0,00 bei Kurs 0.9273</p>
       </div>
 
       <div class="info-box" style="grid-column: span 2; padding: 20px;">
@@ -179,11 +179,11 @@
 
         <div class="info-box">
           <p class="label">Straße:</p>
-          <p>Langelohweg 44</p>
+          <p>Humboldtstr. 157</p>
           <p class="label">PLZ:</p>
-          <p>59872</p>
+          <p>28203</p>
           <p class="label">Ort:</p>
-          <p>Meschede</p>
+          <p>Bremen</p>
           <p class="label">Land:</p>
           <p>Deutschland</p>
         </div>
@@ -206,7 +206,7 @@
           <p class="label">Zinssatz:</p>
           <p>4,30 % p.a.</p>
           <p class="label">Zinsertrag:</p>
-          <p>2.343,25 EUR</p>
+          <p>2.150,00 EUR</p>
         </div>
       </div>
     </div>
@@ -219,14 +219,14 @@
         <p>Feridoun Farivar Moheb</p>
 
         <p class="label">IBAN:</p>
-        <p>DE14464510120000550657</p>
+        <p>DEXX XXXX XXXX XXXX XXXX XX</p>
 
         <p class="label">BIC:</p>
-        <p>WELADED1MES</p>
+        <p>XXXX XX</p>
 
         <p class="label">Bank:</p>
-        <p>Sparkasse Mitten im Sauerland<br>
-        <p>59872 Meschede
+        <p>XXXX XXXX<br>
+        <p>XXXX XXXX
         </p>
       </div>
     </div>
@@ -240,10 +240,10 @@
           <p class="label">Zahlungseingang:</p>
           <p>zur Zahlung fällig</p>
           <p class="label">Betrag CHF:</p>
-          <p style="color: green;">CHF 83.385,00</p>
+          <p style="color: green;">CHF 46.365,00</p>
           <p class="label">Betrag EUR:</p>
-          <p style="color: green;">EUR 90.000,00</p>
-          <p>Kurs: 0.9265 (EUR/CHF)</p>
+          <p style="color: green;">EUR 50.000,00</p>
+          <p>Kurs: 0.9273 (EUR/CHF)</p>
         </div>
 
         <div class="info-box">
@@ -253,8 +253,8 @@
           <p class="label">Buchungstext:</p>
           <p>
             Feridoun Farivar Moheb<br>
-            Langelohweg 44<br>
-            59872 Meschede<br>
+            Humboldtstr. 157<br>
+            28203 Bremen<br>
             Deutschland<br>
             Mitteilung: 963170-3644PAKIAG<br>
           </p>
@@ -333,7 +333,7 @@
 
     setTimeout(() => {
       bar.style.width = `${progress}%`;
-      amountDisplay.textContent = `${currentEarnings.toFixed(2).replace('.', ',')} € von 2.343,25 €`;
+      amountDisplay.textContent = `${currentEarnings.toFixed(2).replace('.', ',')} € von 2.150,00  €`;
       daysLeftDisplay.textContent = daysRemaining > 0
         ? `Noch ${daysRemaining} Tag${daysRemaining === 1 ? '' : 'e'} bis vollständiger Zinsertrag.`
         : `Zinsertrag vollständig erreicht.`;
